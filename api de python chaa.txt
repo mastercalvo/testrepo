@@ -1,0 +1,5 @@
+# Abrimos el archivo en modo 'append' para agregar texto sin sobrescribir
+with open('archivo.txt', 'a') as archivo:
+    # Escribimos la fórmula en el archivo
+    archivo.write('y = mx + b\n')  # Puedes reemplazar esto con tu propia fórmula
+print("¡La fórmula ha sido agregada al archivo exitosamente!")
